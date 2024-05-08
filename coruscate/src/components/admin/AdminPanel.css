@@ -1,0 +1,92 @@
+.fullscreen-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Black background color */
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-primary {
+  background-color: #121212;
+}
+
+.form-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Center align text */
+  width: 400px; /* Adjust width as needed */
+  margin-left: 40%;
+}
+
+
+
+.wrapper {
+  width: 420px; /* Full width */
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.custom-select {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-select::-ms-expand {
+  display: none;
+}
+
+.custom-select::before {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-30%);
+  color: white;
+}
+
+.custom-select option {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.button1 {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.button1:hover {
+  transform: scale(1.1);
+}
+
+.ib{
+ padding-right: 80px;
+}

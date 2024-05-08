@@ -1,0 +1,44 @@
+
+.bg-primary {
+  background-color: #121212; 
+}
+
+.bg-white {
+  background-color: white;
+  color: #fff;
+}
+
+.border-gray-300 {
+  border-color: #333; 
+}
+
+.bg-blue-500 {
+  background-color: #3f51b5; 
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #3949ab; 
+}
+
+.border-gray-300 {
+  border-color: #333; 
+}
+
+.text-xl, .font-bold, .block {
+  color: #fff; 
+}
+
+.fixed {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.form{
+  width: 90%;
+  background-color: transparent;
+  margin: 30px 30px 30px 30px;
+  padding-right: 50px;
+}
+
+.custom-width {
+  width: 12000px;
+}

@@ -1,0 +1,87 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-mid{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.hero-mid .h1{
+padding-top: 4rem !important;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 40px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-size: 1.3rem;
+    color: #fff;
+    
+    padding: 30px;
+}
+
+.show {
+    text-decoration: none;
+    margin-left: 800px;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border: 2px solid white; /* Border color white with transparent background */
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white; /* Text color white */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+}
+
+.show:hover {
+    background-color: rgba(255, 255, 255, 0.25); /* White background with opacity 25% on hover */
+}
+
+
+.hero-text .hide{
+    display: none;
+}
+
+@media screen and (max-width: 555px){
+    .hero-txt h1{
+        padding: 10px 20px;
+    }
+
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        
+        
+    }
+}
